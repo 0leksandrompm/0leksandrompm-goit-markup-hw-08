@@ -1,0 +1,121 @@
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+    &__items {
+            margin: 0;
+            position: relative;
+        }
+    
+    &__contact {
+        list-style: none;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+
+            &__contact:first-child {
+                color: $color-blu;
+                line-height: 1.4;
+            }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        align-items: baseline;
+        gap: 50px;
+    }
+
+    &__link {
+        color: $color-SLATE;
+        line-height: 1.14;
+        letter-spacing: normal;
+        font-weight: 500;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        transition-property: color, fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+            &__link:hover,
+            &__link:focus {
+                color: $color-blu;
+            }
+
+            &__link:hover .header__svg,
+            &__link:focus .header__svg {
+                fill: $color-blu-fill;
+            }
+
+    &__mail-link {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        color: $color-SLATE;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__mail-link .nav__link:hover,
+    &__mail-link .nav__link:focus {
+        color: $color-blu;
+        }
+
+    &__mail-link:last-child {
+        margin-left: 50px;
+    }
+            &__mail-link:hover .nav__link,
+            &__mail-link:focus-within .nav__link {
+                color: $color-blu;
+          
+            }
+    &__link-page {
+        display: block;
+        text-decoration: none;
+        color: $color-blu;
+        line-height: 1.14;
+        letter-spacing: normal;
+        font-weight: 500;
+        border: none;
+        padding-top: 32px;
+        padding-bottom: 26px;
+
+        transition-property: color, background-color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link-page::after {
+        content: '';
+        text-decoration: underline;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0px;
+        bottom: 0;
+        background: $color-blu;
+        border-radius: 2px;
+        z-index: 10;
+    }
+        }
+
+
+ul .Link_Studio:active,
+.nav__mail-link:active,
+.foot_link:active {
+    color: $color-blu;
+}
+
+.web,
+.nav__mail-link,
+.foot_link {
+    text-decoration: none;
+    text-align: center;
+}
