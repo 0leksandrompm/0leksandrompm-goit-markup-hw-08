@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+  
+        .container{
+          width: 1200px;
+      }
+      
+      .our_section__items {
+          width: 270px;
+      }
+
+      .our_section__paragraf {
+        width: 190px;
+        line-height: 1.5;
+        }
+
+      
+  }

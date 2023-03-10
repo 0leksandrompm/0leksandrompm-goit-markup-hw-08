@@ -8,11 +8,20 @@ body {
     }
 
 .container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto 0 auto;
+    width: 200px;
+    padding: 0 5px;
+    margin: 0 auto;
 
     
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .body-caption {
@@ -104,13 +113,7 @@ textarea {
     gap: 8px;
 }
 
-.list {
-    padding: 0px;
-    margin: 0px auto auto 0px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .link3 {
     cursor: pointer;

@@ -30,7 +30,7 @@
 
 
     &__svg {
-            width: 270px;
+            width: 190px;
             height: 120px;
             display: flex;
             justify-content: center;
@@ -46,18 +46,19 @@
     &__title-section {
         line-height: 1.15;
         letter-spacing: normal;
-        font-size: 18px;
+        font-size: 14px;
         margin: 0px 0px 8px 0px;
+        text-align: center;
     }
 
     &__paragraf {
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 14px;
+        line-height: 1.7;
         letter-spacing: 0.02em;
         color: $color-SLATE;
         text-align: justify;
         margin: 0px;
-        width: 274px;
+        width: 190px;
     }
 }
 
@@ -81,7 +82,7 @@
     }
 
 .our_section__items {
-    width: 270px;
+    width: 190px;
 }
 
 /* section command */
