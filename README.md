@@ -1,2 +1,2 @@
-# goit-markup-hw-07BEM
-Home work
+# goit-markup-hw-08
+Home work adaptive
