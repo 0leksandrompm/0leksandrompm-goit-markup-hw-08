@@ -12,6 +12,27 @@
         width: 190px;
         line-height: 1.5;
         }
-
+        
+      .doing {
+         display: block;
+      }
       
+      .body-caption {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.6;
+        
+    }
+    .command__fon {
+      width: 270px;
+     }
+
+     .command__transcript {
+         padding-bottom: 30px;
+  
+  }
+  .klients {
+    flex-wrap: nowrap;
+    
+}
   }

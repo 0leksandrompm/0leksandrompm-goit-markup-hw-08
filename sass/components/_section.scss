@@ -88,8 +88,8 @@
 /* section command */
 
 .command {
-   padding-top: 94px;
-   padding-bottom: 94px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    background-color: $color-CLOUD;
 
     &-section {
@@ -103,7 +103,7 @@
         text-transform: capitalize;
         font-size: 20px;
         line-height: 1.2;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
         margin-top: 0px;
          }
 
@@ -119,8 +119,8 @@
     }
 
     &__transcript {
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 30px;
+        padding-bottom: 24px;
         text-align: center;
     }
 
@@ -139,16 +139,21 @@
         display: flex;
         margin: 0px;
         padding: 0px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     &__fon {
         background-color: $color-white;
-        width: 270px;
-        margin-right: 24px ;
-        
+        width: 200px;
+           
         box-shadow: 0px 2px 1px 0px $color-shadow-mod20,
             0px 1px 1px 0px $color-shadow-mod14;
         border-radius: 0px 0px 4px 4px
+    }
+    &_img{
+        width: 200px;
+        height: 193px;
     }
 
               
@@ -262,6 +267,7 @@
 .klients {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     fill:$color-blu;
@@ -295,6 +301,7 @@
 /* section doing*/
 
 .doing {
+    display: none;
     padding-bottom: 94px;
     max-width: 1600px;
     margin-left: auto;
