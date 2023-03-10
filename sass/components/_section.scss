@@ -153,8 +153,7 @@
     }
     &_img{
         width: 200px;
-        height: 193px;
-    }
+            }
 
               
 }
@@ -291,6 +290,10 @@
         max-width: 106px;
         max-height: 60;
     }
+    &-icon {
+        width: 198px;
+        
+        }
 }
 
 .klients-link:focus,

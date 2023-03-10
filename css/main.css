@@ -340,7 +340,6 @@ textarea {
 }
 .command_img {
   width: 200px;
-  height: 193px;
 }
 
 .product__paragraf {
@@ -473,6 +472,9 @@ textarea {
 .klients-logo {
   max-width: 106px;
   max-height: 60;
+}
+.klients-icon {
+  width: 198px;
 }
 
 .klients-link:focus,

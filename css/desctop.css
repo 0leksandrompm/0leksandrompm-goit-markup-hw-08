@@ -26,6 +26,9 @@
     .command__fon {
       width: 270px;
      }
+     .command_img {
+      width: 270px;
+     }
 
      .command__transcript {
          padding-bottom: 30px;
@@ -33,6 +36,9 @@
   }
   .klients {
     flex-wrap: nowrap;
-    
-}
+    }
+    .klients-icon {
+      width: 170px;
+      
+      }
   }
