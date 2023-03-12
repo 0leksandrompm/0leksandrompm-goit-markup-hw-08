@@ -10,9 +10,10 @@
     
     &__contact {
         list-style: none;
-        display: flex;
+        display: none;
         padding: 0px;
         margin: 0px;
+        gap: 10px;
     }
 
             &__contact:first-child {
@@ -20,9 +21,9 @@
                 line-height: 1.4;
             }
 
-    &__list {
+    &__list, .burg__list {
         list-style: none;
-        display: flex;
+        display: none;
         padding: 0px;
         margin: 0px;
         align-items: baseline;
@@ -68,10 +69,7 @@
         color: $color-blu;
         }
 
-    &__mail-link:last-child {
-        margin-left: 50px;
-    }
-            &__mail-link:hover .nav__link,
+           &__mail-link:hover .nav__link,
             &__mail-link:focus-within .nav__link {
                 color: $color-blu;
           

@@ -1,44 +1,74 @@
 @media screen and (min-width: 1200px) {
-  
-        .container{
-          width: 1200px;
-      }
-      
-      .our_section__items {
-          width: 270px;
-      }
+  .container {
+    width: 1200px;
+  }
 
-      .our_section__paragraf {
-        width: 190px;
-        line-height: 1.5;
-        }
-        
-      .doing {
-         display: block;
-      }
-      
-      .body-caption {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.6;
-        
-    }
-    .command__fon {
-      width: 270px;
-     }
-     .command_img {
-      width: 270px;
-     }
+  .our_section__items {
+    width: 270px;
+  }
 
-     .command__transcript {
-         padding-bottom: 30px;
-  
+  .our_section__paragraf {
+    width: 190px;
+    line-height: 1.5;
+  }
+
+  .doing {
+    display: block;
+  }
+
+  .body-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+  }
+  .command__fon {
+    width: 270px;
+  }
+  .command_img {
+    width: 270px;
+  }
+
+  .command__transcript {
+    padding-bottom: 30px;
   }
   .klients {
     flex-wrap: nowrap;
-    }
-    .klients-icon {
-      width: 170px;
-      
-      }
   }
+  .klients-icon {
+    width: 170px;
+  }
+  .body-title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+  .button_servise {
+    padding: 10px 32px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Img\ Overlay.png);
+    max-width: 1600px;
+    padding: 200px 0;
+  }
+  .logo {
+    font-size: 26px;
+  }
+  .logo-header {
+    margin-right: 93px;
+  }
+
+  .nav__contact {
+    flex-direction: row;
+    gap: 0;
+  }
+  .nav__mail-link:last-child {
+    margin-left: 50px;
+  }
+  .header__svg {
+    margin-right: 10px;
+  }
+}

@@ -13,6 +13,11 @@ body {
   margin: 0 auto;
 }
 
+header > .container {
+  padding: 0;
+  margin: auto;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -43,8 +48,8 @@ body {
 
 .body-title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -87,7 +92,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 10px;
+  margin-right: 8px;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -186,19 +191,22 @@ textarea {
   color: rgba(33, 150, 243, 0.9);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /* section hero */
 .hero {
   background-color: rgb(175, 177, 184);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img\ Overlay.png);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img\ Overlay.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img\ Overlay-mob.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img\ Overlay-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
-  padding: 200px 0;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 118px 0;
 }
 .hero-folio {
   padding-top: 94px;
@@ -692,7 +700,7 @@ textarea {
 .logo {
   color: rgba(33, 150, 243, 0.9);
   font-family: Raleway;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.4;
   letter-spacing: normal;
   display: block;
@@ -705,10 +713,7 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-header {
-  margin-right: 93px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-right: auto;
 }
 .logo-footer {
   margin-bottom: 20px;
@@ -740,21 +745,18 @@ textarea {
 }
 .nav__contact {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   padding: 0px;
   margin: 0px;
+  gap: 10px;
 }
 .nav__contact:first-child {
   color: rgba(33, 150, 243, 0.9);
   line-height: 1.4;
 }
-.nav__list {
+.nav__list, .nav .burg__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   padding: 0px;
   margin: 0px;
   -webkit-box-align: baseline;
@@ -805,9 +807,6 @@ textarea {
 }
 .nav__mail-link .nav__link:hover, .nav__mail-link .nav__link:focus {
   color: rgba(33, 150, 243, 0.9);
-}
-.nav__mail-link:last-child {
-  margin-left: 50px;
 }
 .nav__mail-link:hover .nav__link, .nav__mail-link:focus-within .nav__link {
   color: rgba(33, 150, 243, 0.9);
@@ -1019,14 +1018,14 @@ ul .Link_Studio:active,
   display: block;
   background-color: rgba(33, 150, 243, 0.9);
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.67;
   letter-spacing: normal;
   cursor: pointer;
   font-family: inherit;
   color: rgb(255, 255, 255);
   font-weight: 700;
   margin: 30px auto 0;
-  padding: 10px 32px;
+  padding: 10px 24px;
   border: none;
   border-radius: 4px;
   -webkit-transition-property: background-color;
@@ -1085,6 +1084,147 @@ ul .Link_Studio:active,
 }
 .button-mess:hover, .button-mess:focus {
   background-color: rgba(33, 150, 243, 0.7);
+}
+
+.mobile_burger {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(33, 33, 33);
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 0;
+}
+
+.burger {
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 480px;
+  height: 796px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  display: inline;
+}
+
+.burg__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 35px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.burger-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.burger-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.burg__link {
+  display: block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+  letter-spacing: normal;
+  font-weight: 500;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burg__mail-link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.burg__contact {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+  gap: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.burger-hed {
+  margin-bottom: auto;
+}
+
+.burg__mail-link:not(last-child) {
+  margin-bottom: 32px;
+}
+
+.socials-name {
+  list-style: none;
+  gap: 20px;
 }
 
 .register-form-input:valid {

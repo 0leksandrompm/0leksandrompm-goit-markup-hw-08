@@ -1,25 +1,40 @@
 @media screen and (min-width: 480px) {
-    .container{
-        width: 480px;
-        padding: 0 15px;
-           
-    }
-     .our_section__items {
-        width: 450px;
-    }
-    .our_section__svg {
-        width: 100%;
-    }
-    
-    .our_section__paragraf {
-        width: 100%
-    }
-    .klients-icon {
-        width: 208px;
-        
-        }
-        .command_img {
-            width: 450px;
-           }
-
+  .container {
+    width: 480px;
+    padding: 0 15px;
   }
+  .our_section__items {
+    width: 450px;
+  }
+  .our_section__svg {
+    width: 100%;
+  }
+
+  .our_section__paragraf {
+    width: 100%;
+  }
+  .klients-icon {
+    width: 208px;
+  }
+  .command_img {
+    width: 450px;
+  }
+  .command__fon{
+    width: 450px;
+  }
+
+  .hero {
+    max-width: 480px;
+    padding: 118px 0;
+  }
+
+  header > .container {
+    padding: 0 23px 0 15px;
+  }
+  .logo-header {
+    margin-right: 88px;
+  }
+  .burg__list {
+    display: flex;
+  }
+}

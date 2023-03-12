@@ -14,6 +14,12 @@ body {
    
 }
 
+header>.container {
+    padding: 0;
+    margin: auto;
+
+}
+
 .list {
     padding: 0;
     margin: 0;
@@ -38,8 +44,8 @@ body {
 
 .body-title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.6;
     text-align: center;
     text-transform: uppercase;
     display: block;
@@ -67,7 +73,7 @@ body {
     &__svg {
         display: flex;
         align-items: center;
-        margin-right: 10px;
+        margin-right: 8px;
 
         transition-property: fill;
         transition-duration: 250ms;
@@ -158,4 +164,7 @@ textarea {
 
 .webstudio:active {
     color: $color-blu;
+}
+.no-scroll{
+    overflow: hidden;
 }
