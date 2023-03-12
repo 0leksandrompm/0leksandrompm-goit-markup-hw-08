@@ -2,6 +2,7 @@
   .container {
     width: 480px;
     padding: 0 15px;
+    margin-left: 25%;
   }
   .our_section__items {
     width: 450px;
@@ -63,4 +64,9 @@
 
     .button-mess {
         width: 200px;}
+/* 
+        portfolio */
+        .product {
+            width: 450px;
+        }
 }

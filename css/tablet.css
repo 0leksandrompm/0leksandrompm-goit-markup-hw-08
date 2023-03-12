@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin:auto;
   }
   .our_section__items {
     width: 354px;
@@ -80,4 +81,18 @@
     justify-content: space-around;
      
   }
+/* portfolio */
+
+  .list-but {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+/* portfolio */
+.product {
+    width: 768px;
+}
+
+.product__work-foto {
+    max-width: 354px;
+ }
 }
