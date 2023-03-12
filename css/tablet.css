@@ -70,4 +70,14 @@
   .command__socials {
     justify-content: center;
 }
+  .footer-container {
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 768px;
+    column-gap: 165px;
+    justify-content: space-around;
+     
+  }
 }
