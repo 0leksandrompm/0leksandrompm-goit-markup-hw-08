@@ -1,7 +1,8 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
-    margin:auto;
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .our_section__items {
     width: 354px;
@@ -13,8 +14,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 0;
-    padding: 0;
+  
   }
   .command__fon {
     width: 354px;
@@ -49,7 +49,7 @@
   .nav__contact {
     display: flex;
     flex-direction: column;
-    margin-left: 96px;
+    margin-left: auto;
   }
 
   .nav__list {
@@ -99,4 +99,9 @@
  .modal {
   width: 528px;
   height: 581px;}
+
+  .our_section> .container {
+    display: flex;
+    align-items: center;
+  }
 }
