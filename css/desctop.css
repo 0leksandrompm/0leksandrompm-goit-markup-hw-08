@@ -1,6 +1,6 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .container {
-    width: 1170px;
+    width: 1600px;
   }
 
   .our_section__items {
@@ -117,10 +117,22 @@ width: 1170px;
 column-gap: 0px;
 justify-content: normal;
 }
+.our_section> .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
                                                     /* portfolio */
 .product {
   width: 1200px;
+}
+.list {
+  justify-content: center
+}
+
+.command__title {
+  justify-content: center
 }
 
 }
