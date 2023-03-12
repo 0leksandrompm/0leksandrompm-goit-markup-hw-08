@@ -99,6 +99,7 @@
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
     <link rel="stylesheet" href="./css/desctop.css" />
+
     <!-- підключення шрифтів -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -148,6 +149,12 @@
             >
           </li>
         </ul>
+
+        <button type="button" class="mobile_burger" data-burger-open>
+          <svg class="mobile_burger__svg" width="40" height="40">
+            <use href="./images/sprite.svg#burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -178,7 +185,7 @@
 
           <!--роботи-->
 
-          <ul class="product">
+          <!-- <ul class="product">
             <li class="product__items">
               <a class="product__reference" href="">
                 <div class="product__emblem">
@@ -397,7 +404,67 @@
                 </div>
               </a>
             </li>
+          </ul> -->
+           <!-- modal-window -->
+
+    <div class="backdrop is-hidden" data-burger>
+      <div class="burger">
+        <button class="burger-btn" type="button" data-burger-close>
+          <svg width="11" height="11">
+            <use href="./images/sprite.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <div class="burger-container">
+         
+          <ul class="burg__list">
+              <li class="burg__items">
+                <a class="burg__link" href="./index.html">Студія</a>
+              </li>
+              <li class="burg__items">
+                <a class="burg__link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="burg__items">
+                <a class="burg__link" href="">Контакти</a>
+              </li>
           </ul>
+          
+          <div>
+  <ul class="burg__contact">
+              <li class="burg__mail-link">
+                <a class="burg__link" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="burg__mail-link">
+                <a class="burg__link" href="tell:+380961111111">
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+
+            <ul class="burg-command__socials">
+              <li class="socials-name">
+                <a class="burg__link__social" href="">
+                  instagram
+                </a>
+              </li>
+              <li class="socials-name">
+                <a class="burg__link__social" href="">
+                  twitter
+                </a>
+              </li>
+              <li class="socials-name">
+                <a class="burg__link__social" href="">
+                  facebook
+                </a>
+              </li>
+              <li class="socials-name">
+                <a class="burg__link__social" href="">
+                  linkedin
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
@@ -496,5 +563,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/burger.js"></script>
   </body>
 </html>
