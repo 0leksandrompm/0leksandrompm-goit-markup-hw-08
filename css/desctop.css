@@ -1,7 +1,9 @@
 @media screen and (min-width: 1600px) {
   .container {
-    width: 1600px;
-  }
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto 0 auto;
+}
 
   .our_section__items {
     width: 270px;
@@ -125,7 +127,7 @@ justify-content: normal;
 
                                                     /* portfolio */
 .product {
-  width: 1200px;
+  width: 1170px;
 }
 .list {
   justify-content: center
