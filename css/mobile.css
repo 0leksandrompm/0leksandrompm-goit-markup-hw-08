@@ -1,8 +1,7 @@
 @media screen and (min-width: 480px) {
   .container {
     width: 450px;
-      margin-left: 25%;
-  }
+   }
   .our_section__items {
     width: 450px;
   }
@@ -40,7 +39,6 @@
 
   .burger {
     width: 480px;
-    height: 796px;
   }
   .burg__list {
     gap: 35px;
@@ -68,4 +66,9 @@
         .product {
             width: 450px;
         }
+        .modal {
+          width: 450px;}
+
+.command__socials {
+    list-style: none;}
 }
