@@ -44,7 +44,7 @@
     &-mess {
         background-color:$color-blu;
         color: $color-white;
-        width: 200px;
+        width: 100%;
         height: 50px;
         box-shadow: 0px 4px 4px $color-shadow;
         border-radius: 4px;
@@ -90,8 +90,8 @@
     left: 50%;
 
     transform: translate(-50%, -50%);
-    width: 480px;
-    height: 796px;
+    width: 320px;
+    height: 530px;
     background-color: $color-white;
 
     border-radius: 4px;
@@ -102,11 +102,12 @@
 
 .burg__list {
     display: flex;
+    font-size: 40px;
     list-style: none;
     padding: 0px;
     margin: 0px;
     align-items: baseline;
-    gap: 35px;
+    gap: 15px;
     flex-direction: column;
 
 }
@@ -134,12 +135,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .burg__link {
     display: block;
     font-weight: 500;
-    font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.02em;
    
@@ -157,7 +158,7 @@
         -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .burg__mail-link{
+.burg__mail-link{
         font-weight: 500;
     font-size: 24px;
     line-height: 1.2px;
@@ -171,20 +172,59 @@
     list-style: none;
     margin-bottom: 0;
     padding: 0;
-    gap: 32px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
+} 
 
-}
 .burger-hed{
     margin-bottom: auto;
-}
-
-.burg__mail-link:not(last-child){
-    margin-bottom: 32px;
 }
 
 .socials-name{
     list-style: none;
     gap: 20px;
 }
+.burg__link__social{
+         color: $color-blu;
+        line-height: 1.14;
+        letter-spacing: normal;
+        font-weight: 500;
+        text-decoration: none;
+       
+              
+        transition-property: color;
+          transition-duration: 250ms;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .burg__link__social:hover,.burg__link__social:focus{
+        color: $color-black;
+    }
+
+    .burg__items:hover .burg__link{
+        color: $color-blu;
+    }
+
+    .burg-command__socials {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+         justify-content: flex-start;
+        row-gap: 10px;
+        column-gap: 55px;
+        padding: 0;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 22px;
+        color: #212121;
+        margin-top: 40px;
+        margin-bottom: 8px;
+    }
+
+    .burg__mail-link:hover .burg__link, .burg__mail-link:focus .burg__link{
+        color: $color-blu;
+         font-size: 34px;
+       }

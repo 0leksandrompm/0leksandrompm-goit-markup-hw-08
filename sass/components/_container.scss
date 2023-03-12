@@ -59,7 +59,10 @@ header>.container {
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 0 auto;
 }
 .header {
     border-bottom: 1px solid $color-border;

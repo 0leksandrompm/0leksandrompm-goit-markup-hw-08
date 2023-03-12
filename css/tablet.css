@@ -67,4 +67,7 @@
   .burger{
     display: none;
   }
+  .command__socials {
+    justify-content: center;
+}
 }

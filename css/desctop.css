@@ -71,4 +71,50 @@
   .header__svg {
     margin-right: 10px;
   }
+
+  .footer-container {
+    align-items: baseline;
+    flex-direction: row;
+  }
+
+  .fut-adress {
+    text-align: left;
+  }
+
+  .logo-footer {
+    text-align: left;
+  }
+
+  .wellkom {
+    margin-left: 70px;
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  .futer-write {
+    display: block;
+    width: 570px;
+    height: 86px;
+  }
+  
+
+
+
+
+  .futer-form {
+    gap: 10px;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: auto;
+    flex-direction: row;
+  }
+
+  .footer-post {
+    width: 358px;
 }
+.footer-container {
+width: 1170px;
+}
+}
+
+

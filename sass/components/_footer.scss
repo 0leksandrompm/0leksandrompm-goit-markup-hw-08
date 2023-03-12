@@ -1,6 +1,7 @@
 .fut-adress {
     display: block;
     font-style: normal;
+        text-align: center;
 }
 
 .footer {
@@ -15,7 +16,7 @@
     &_contacts {
             display: flex;
             flex-direction: column;
-            gap: 9px;
+            gap: 8px;
     
             margin-top: 0px;
             margin-right: 0px;
@@ -43,10 +44,11 @@
 }
 
 .futer-write {
-    display: block;
-    width: 570px;
-    height: 86px;
-    margin-left: auto;
+           display: flex;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        flex-direction: column;
 }
 
 .footer-email {
@@ -60,7 +62,7 @@
 }
 
 .footer-post {
-    width: 358px;
+    width: 100%;
     height: 50px;
     border: 0px;
     padding-left: 15px;
@@ -79,7 +81,10 @@
     gap: 10px;
     display: inline-flex;
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .foot-icon {
     stroke: $color-snow;
@@ -138,5 +143,5 @@
     color: $color-white;
     display: block;
     margin-top: 0;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }

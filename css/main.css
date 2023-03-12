@@ -69,9 +69,15 @@ header > .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5px;
+  margin: 0 auto;
 }
 
 .header {
@@ -306,12 +312,16 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   fill: rgb(175, 177, 184);
   gap: 10px;
   padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(33, 33, 33);
 }
 .command__transcript {
   padding-top: 30px;
@@ -382,6 +392,11 @@ textarea {
 .product .command__paragraf {
   text-align: center;
   font-size: 16px;
+}
+
+.ellips-link {
+  color: rgb(33, 33, 33);
+  list-style: none;
 }
 
 .ellips {
@@ -535,6 +550,7 @@ textarea {
 .fut-adress {
   display: block;
   font-style: normal;
+  text-align: center;
 }
 
 .footer {
@@ -554,7 +570,7 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 9px;
+  gap: 8px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -585,10 +601,16 @@ textarea {
 }
 
 .futer-write {
-  display: block;
-  width: 570px;
-  height: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
   margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-email {
@@ -603,7 +625,7 @@ textarea {
 }
 
 .footer-post {
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 0px;
   padding-left: 15px;
@@ -623,6 +645,13 @@ textarea {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .foot-icon {
@@ -694,7 +723,7 @@ textarea {
   color: rgb(255, 255, 255);
   display: block;
   margin-top: 0;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .logo {
@@ -717,6 +746,7 @@ textarea {
 }
 .logo-footer {
   margin-bottom: 20px;
+  text-align: center;
 }
 .logo__write {
   color: rgb(255, 255, 255);
@@ -977,7 +1007,8 @@ ul .Link_Studio:active,
 }
 
 .wellkom {
-  margin-left: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .wellkoms {
@@ -987,6 +1018,7 @@ ul .Link_Studio:active,
   font-size: 14px;
   /* шрифт тут відповідає стандартному в body */
   font-weight: 700;
+  text-align: center;
 }
 
 .fon {
@@ -1051,7 +1083,7 @@ ul .Link_Studio:active,
 .button-mess {
   background-color: rgba(33, 150, 243, 0.9);
   color: rgb(255, 255, 255);
-  width: 200px;
+  width: 100%;
   height: 50px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
@@ -1111,8 +1143,8 @@ ul .Link_Studio:active,
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 480px;
-  height: 796px;
+  width: 320px;
+  height: 530px;
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1124,13 +1156,14 @@ ul .Link_Studio:active,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 40px;
   list-style: none;
   padding: 0px;
   margin: 0px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  gap: 35px;
+  gap: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1168,12 +1201,12 @@ ul .Link_Studio:active,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: auto;
 }
 
 .burg__link {
   display: block;
   font-weight: 500;
-  font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
@@ -1204,7 +1237,7 @@ ul .Link_Studio:active,
   list-style: none;
   margin-bottom: 0;
   padding: 0;
-  gap: 32px;
+  gap: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1218,13 +1251,62 @@ ul .Link_Studio:active,
   margin-bottom: auto;
 }
 
-.burg__mail-link:not(last-child) {
-  margin-bottom: 32px;
-}
-
 .socials-name {
   list-style: none;
   gap: 20px;
+}
+
+.burg__link__social {
+  color: rgba(33, 150, 243, 0.9);
+  line-height: 1.14;
+  letter-spacing: normal;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burg__link__social:hover, .burg__link__social:focus {
+  color: rgb(33, 33, 33);
+}
+
+.burg__items:hover .burg__link {
+  color: rgba(33, 150, 243, 0.9);
+}
+
+.burg-command__socials {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  row-gap: 10px;
+  -webkit-column-gap: 55px;
+     -moz-column-gap: 55px;
+          column-gap: 55px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: #212121;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.burg__mail-link:hover .burg__link, .burg__mail-link:focus .burg__link {
+  color: rgba(33, 150, 243, 0.9);
+  font-size: 34px;
 }
 
 .register-form-input:valid {
@@ -1468,10 +1550,6 @@ input [type=checkbox] {
 .regisrer-form-label {
   font-size: 14px;
   display: block;
-}
-
-.futer-form {
-  margin-left: auto;
 }
 
 .backdrop {

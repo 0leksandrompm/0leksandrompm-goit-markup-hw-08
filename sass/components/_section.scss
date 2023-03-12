@@ -111,10 +111,14 @@
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content:space-between;;
         fill:$color-grey;
         gap: 10px;
         padding: 0;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: $color-black;
     }
 
     &__transcript {
@@ -200,6 +204,10 @@
     font-size: 16px;
 }
 
+.ellips-link{
+    color: $color-black;
+    list-style: none;
+}
 
 .ellips {
     width: 44px;

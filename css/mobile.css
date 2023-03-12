@@ -19,7 +19,7 @@
   .command_img {
     width: 450px;
   }
-  .command__fon{
+  .command__fon {
     width: 450px;
   }
 
@@ -37,4 +37,30 @@
   .burg__list {
     display: flex;
   }
+
+  .burger {
+    width: 480px;
+    height: 796px;
+  }
+  .burg__list {
+    gap: 35px;
+  }
+
+  .burg__contact {
+    gap: 32px;
+  }
+  .burg-command__socials {
+    margin-top: 64px;
+    font-size: 18px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .footer-post {
+    width: 450px;}
+
+    .futer-form {
+        gap: 20px;}
+
+    .button-mess {
+        width: 200px;}
 }
