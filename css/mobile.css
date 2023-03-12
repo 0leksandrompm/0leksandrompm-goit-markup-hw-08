@@ -1,8 +1,7 @@
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
-    padding: 0 15px;
-    margin-left: 25%;
+    width: 450px;
+      margin-left: 25%;
   }
   .our_section__items {
     width: 450px;

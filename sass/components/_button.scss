@@ -77,11 +77,9 @@
         color: $color-black;
     border: none;
     display: flex;
-    padding: 0;
-    margin: 0;
         justify-content: center;
         align-items: center;
-        margin-right: 0;
+        margin-left: 116px;
 }
 .burger {
     padding: 40px;
@@ -91,7 +89,7 @@
 
     transform: translate(-50%, -50%);
     width: 320px;
-    height: 530px;
+    height: 100%;
     background-color: $color-white;
 
     border-radius: 4px;
@@ -210,18 +208,17 @@
     .burg-command__socials {
         list-style: none;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
-         justify-content: flex-start;
-        row-gap: 10px;
-        column-gap: 55px;
+        justify-content: flex-start;
         padding: 0;
         font-weight: 500;
-        font-size: 19px;
+        font-size: 14px;
         line-height: 22px;
         color: #212121;
         margin-top: 40px;
         margin-bottom: 8px;
+        gap: 5px;
     }
 
     .burg__mail-link:hover .burg__link, .burg__mail-link:focus .burg__link{
