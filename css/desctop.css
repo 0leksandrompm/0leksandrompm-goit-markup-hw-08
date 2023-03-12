@@ -117,6 +117,12 @@ width: 1170px;
 column-gap: 0px;
 justify-content: normal;
 }
+
+                                                    /* portfolio */
+.product {
+  width: 1200px;
+}
+
 }
 
 
