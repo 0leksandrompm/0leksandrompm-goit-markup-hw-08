@@ -66,6 +66,7 @@
   .nav__contact {
     flex-direction: row;
     gap: 0;
+    margin-right: 15px;
   }
   .nav__mail-link:last-child {
     margin-left: 50px;
