@@ -37,6 +37,7 @@
             align-items: center;
             margin-bottom: 8px;
             background-color: $color-CLOUD;
+            border-radius: 4px;
     }
 
    &__icon {
@@ -112,7 +113,7 @@
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content:space-between;;
+        justify-content: center;
         fill:$color-grey;
         gap: 10px;
         padding: 0;

@@ -26,6 +26,7 @@ header>.container {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .body-caption {
@@ -62,7 +63,7 @@ header>.container {
     flex-direction: column;
     padding: 0 5px;
     margin: 0 auto;
-    width: 200px;
+    width: 204px;
 }
 .header {
     border-bottom: 1px solid $color-border;
