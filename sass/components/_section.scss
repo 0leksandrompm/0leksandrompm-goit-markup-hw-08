@@ -30,7 +30,7 @@
 
 
     &__svg {
-            width: 190px;
+            width: 310;
             height: 120px;
             display: flex;
             justify-content: center;
@@ -59,7 +59,7 @@
         color: $color-SLATE;
         text-align: justify;
         margin: 0px;
-        width: 190px;
+        width: 310px;
     }
 }
 
@@ -83,7 +83,7 @@
     }
 
 .our_section__items {
-    width: 190px;
+    width: 310px;
 }
 
 /* section command */
@@ -150,14 +150,17 @@
 
     &__fon {
         background-color: $color-white;
-        width: 320px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
            
         box-shadow: 0px 2px 1px 0px $color-shadow-mod20,
             0px 1px 1px 0px $color-shadow-mod14;
         border-radius: 0px 0px 4px 4px
     }
     &_img{
-        width: 320px;
+        width: 100%;
+        height: auto;
             }
 
               

@@ -2,7 +2,6 @@
   .container {
     width: 1200px;
     padding: 0 15px;
-    margin: 0 auto 0 auto;
 }
 
   .our_section__items {
@@ -138,7 +137,7 @@ justify-content: normal;
   justify-content: center
 }
 .command_img {
-  width: 1200px;
+  width: 270px;
 }
 
 }
