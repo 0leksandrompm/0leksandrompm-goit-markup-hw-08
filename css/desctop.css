@@ -137,6 +137,9 @@ justify-content: normal;
 .command__title {
   justify-content: center
 }
+.command_img {
+  width: 1200px;
+}
 
 }
 
