@@ -74,6 +74,7 @@ header>.container {
     &__container {
             display: flex;
             align-items: center;
+            justify-content: space-between;
         }
     &__svg {
         display: flex;
